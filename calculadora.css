@@ -1,0 +1,73 @@
+body{
+    text-align: center;  
+}
+form{
+    background-color: rgb(184, 183, 183);
+    width: 480px;
+    margin-left: 400px;
+    border-radius: 30px;
+}
+input{
+    width: 100px;
+    border-radius: 10px;
+    border-color: rgb(248, 244, 244);
+    height: 30px;
+    background-color: rgb(30, 29, 112);
+    color: cornsilk;
+    font-size: 15px;
+}
+.input1{
+    width: 200px;
+    height: 40px;
+    background-color: rgba(243, 243, 243, 0.623);
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+.input2{
+    width: 420px;
+    height: 80px;
+    background-color: rgba(243, 243, 243, 0.623);
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+}
+.input3{
+    width: 112px;
+}
+.input4{
+    width: 100px;
+}
+.input5{
+    width: 135px;
+    background-color: rgb(85, 85, 85);
+}
+.input6{
+    width: 205px; 
+}
+.posi1{
+    position: absolute;
+    left: 440px;
+    top: 345px;
+}
+.posi2{
+    background-color: rgb(209, 0, 0);
+    height: 100px;
+    position: absolute;
+    left: 760px;
+    top: 310px;
+}
+.posi3{
+    position: absolute;
+    left: 440px;
+    top: 385px;
+}
+.posi4{
+    position: absolute;
+    left: 440px;
+    top: 310px;
+}
+div{
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 30px;
+
+}

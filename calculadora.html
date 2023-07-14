@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>CALCULADORA</title>
+    <link rel="stylesheet" type="text/css" href="calculadora.css">
+    <script src="calculadora.js"></script> 
+</head>
+<body>
+    <br><br>
+    <form>
+        <br>
+        <input class="input2" type="text" id="demo" name="demo"><br><br>
+        <input class="input1" type="number" id="num1" name="num1" placeholder="número 1">
+        <input class="input1" type="number" id="num2" name="num2" placeholder="número 2">
+        <br><br>
+        <div>
+        <input class="input5" type="button" value="Sistema Binário" onclick="imprimeParagrafo(num1.value,0,8)">
+        <input class="input5" type="button" value="Sistema Octal" onclick="imprimeParagrafo(num1.value,0,9)">
+        <input class="input5" type="button" value="Sist. Hexadecimal" onclick="imprimeParagrafo(num1.value,0,10)">
+        <br>
+        <input type="button" value="Soma" onclick="imprimeParagrafo(num1.value, num2.value,1)">
+        <input type="button" value="Subtração" onclick="imprimeParagrafo(num1.value, num2.value,2)">
+        <input type="button" value="Multiplicação" onclick="imprimeParagrafo(num1.value, num2.value,3)">
+        <input type="button" value="Divisão" onclick="imprimeParagrafo(num1.value, num2.value,4)">
+        <br>
+        <input class="posi4" type="button" value="Potência" onclick="imprimeParagrafo(num1.value,num2.value,13)">
+        <input class="input4" type="button" value="Logaritmo" onclick="imprimeParagrafo(num1.value,0,14)">
+        <input class="input4" type="button" value="Raiz" onclick="imprimeParagrafo(num1.value,num2.value,12)">
+        <br>
+        <input class="posi1" type="button" value="Fatorial" onclick="imprimeParagrafo(num1.value,0,5)">
+        <input type="button" value="Neperiano" onclick="imprimeParagrafo(num1.value,0,6)">
+        <input type="button" value="Fibonacci" onclick="imprimeParagrafo(num1.value,0,11)">
+        <!-- <input type="button" value="BASE 2" onclick="imprimeParagrafo(num1.value,0,7)"> -->
+        <br>
+        <input class="posi3" type="button" value="Seno" onclick="imprimeParagrafo(num1.value,0,15)">
+        <input type="button" value="Coseno" onclick="imprimeParagrafo(num1.value,0,16)">
+        <input type="button" value="Tangente" onclick="imprimeParagrafo(num1.value,0,17)">
+        <input class="posi2" type="button" value="APAGAR" onclick="apagar();">
+        <br>
+        <input class="input6" type="button" value="Produto de matriz" onclick="imprimeParagrafo(num1.value,0,18)">
+        <input class="input6" type="button" value="Inverso de matriz" onclick="imprimeParagrafo(num1.value,0,19)">
+        </div><br><br>
+    </form>
+</body>
